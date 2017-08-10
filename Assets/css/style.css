@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-/* Icons & Connect Section*/
+/* Connect With Me Section*/
 
 .icons {
 	height: 67px;
@@ -42,9 +42,9 @@
 	margin-bottom: 15px;
 }
 
-/* End Icons & Connect Section */
 
-/* Headings & Text */
+
+/* Headings and Text Styles */
 
 .my-name {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -104,9 +104,9 @@ li {
 }
 
 
-/* End Headings & Text */
 
-/* Other Layout */
+
+/* Body, profile picture, header, */
 
 body {
 	box-sizing: border-box;
@@ -159,9 +159,9 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* End Other Layout */
 
-/* Portfolio Page */
+
+/* Portfolio: positioning images, and sizing them */
 
 .image-holder {
 	position: relative;
@@ -206,9 +206,9 @@ header {
 	margin-bottom: 10px;
 }
 
-/* End Portfolio Page */
 
-/* Contact Page */
+
+/* Contact.html: Text styles, sizing,clickable buttons, user input; */
 
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -247,10 +247,10 @@ button {
 	margin-top: 23px;
 }
 
-/* End Contact Page */
 
 
-/* Footer */
+
+/*Footer styling */
 
 footer {
 	background: #666666;
@@ -266,38 +266,4 @@ footer {
 	font-size: 12px;
 }
 
-/* End Footer */
 
-/* Sticky Footer */
-
-html, body {
-	height: 100%;
-}
-
-#wrap {
-	min-height: 100%;
-}
-
-#main {
-	overflow: auto;
-	padding-bottom: 150px;
-}  /* must be same height as the footer */
-
-#footer {
-	position: relative;
-    margin-top: -90px; /* negative value of footer height */
-    height: 90px;
-    clear: both;
-    border-top: 10px solid #4aaaa5;
-}
-
-/* Opera Fix */
-body:before {
-    content:"";
-    height:100%;
-    float:left;
-    width:0;
-    margin-top:-32767px;
-}
-
-/* End Sticky Footer*/
